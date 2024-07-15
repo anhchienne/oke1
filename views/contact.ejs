@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+
+    <div class="container mb-5 pb-5">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 mt-4 mb-5 pt-4 pb-0 mw border border-light rounded bg-light">
+                <h2 class="text-center">Contact Form</h2>
+                <p class="text-center">Your feedbacks help us improve our service.</p>
+                <form action="/contactSubmit" method="post">
+                    <div class="form-group mb-2">
+                        <label>Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your email" name="email">
+                    </div>
+                    <div class="form-group mb-2">
+                        <label>Issues</label>
+                        <input type="text" class="form-control" id="issues" placeholder="Issues" name="issues">
+
+                    </div>
+                    <div class="form-group mb-2">
+                        <label>More details about your issues</label>
+                        <textarea class="form-control" id="details" rows="3" name="detail"></textarea>
+                    </div>
+                    <div class="form-group mb-2" style="text-align: center;">
+                        <input type="submit" class="btn btn-primary my-2 " value="Submit">
+                    </div>
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <%- include("partials/footer.ejs") %>

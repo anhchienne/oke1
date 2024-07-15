@@ -1,0 +1,18 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "Blog Post Website with node.js, express.js, EJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Doan",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^6.0.1",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,9 @@
+header {
+    box-sizing: border-box;
+}
+
+.changeState:hover {
+    opacity: 0.8;
+}
+
+footer {}
